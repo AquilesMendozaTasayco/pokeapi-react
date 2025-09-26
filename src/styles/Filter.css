@@ -1,0 +1,41 @@
+.content-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 20px 0;
+}
+
+.content-filter select {
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #313131;
+    color: #fff;
+    padding: 10px;
+    font-size: 10px;
+    width: 260px;
+    cursor: pointer;
+}
+
+.content-tb {
+    width: 60%;
+}
+
+.buttons-types {
+    border: none;
+    padding: 10px 5px;
+    border-radius: 50px;
+    font-size: 7px;
+    width: 90px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.reset-fiñters {
+    font-size: 10px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}

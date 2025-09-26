@@ -1,0 +1,80 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo-Poke {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-Poke img{
+  width: 250px;
+}
+
+
+main {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 22px 50px;
+  justify-content: center;
+  width: fit-content;
+  margin: 20px auto;
+  flex: 1;
+}
+
+footer {
+  height: 60px;
+  color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 90px 0 30px 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+
+footer i {
+  font-size: 30px;
+  color: rgb(52, 99, 185);
+}
+
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 6px solid #eee;
+  border-top: 6px solid #3b82f6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.vacio-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
